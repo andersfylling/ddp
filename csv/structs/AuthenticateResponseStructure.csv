@@ -1,5 +1,4 @@
 Field,Type,Description
------------,---------------------------------------------------------------------------------------,-------------------------------
 user,partial [user](#DOCS_RESOURCES_USER/user-object) object,the authed user
 scopes,array of [OAuth2 scopes](#DOCS_TOPICS_OAUTH2/scopes),authorized scopes
 expires,date,expiration date of OAuth2 token

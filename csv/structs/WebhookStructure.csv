@@ -1,5 +1,4 @@
 Field,Type,Description
-----------,-----------------------------------------------,-----------------------------------------------------------------------------------------
 id,snowflake,the id of the webhook
 guild_id?,snowflake,the guild id this webhook is for
 channel_id,snowflake,the channel id this webhook is for

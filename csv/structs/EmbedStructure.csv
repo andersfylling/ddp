@@ -1,5 +1,4 @@
 Field,Type,Description
-------------,------------------------------------------------------------------------------------------,------------------------------------------------
 title?,string,title of embed
 type?,string,"type of embed (always ""rich"" for webhook embeds)"
 description?,string,description of embed

@@ -1,5 +1,4 @@
 Field,Type,Description
-----------,-------,--------------------------------------------------------------
 channel_id,string,channel id to join (or `null` to leave)
 timeout,integer,asyncronously join channel with time to wait before timing out
 force,boolean,forces a user to join a voice channel

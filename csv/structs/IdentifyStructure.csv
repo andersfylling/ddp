@@ -1,5 +1,4 @@
 Field,Type,Description,Default
---------------------,----------------------------------------------------------,------------------------------------------------------------------------------------------------------------------------------,-------
 token,string,authentication token,-
 properties,object,[connection properties](#DOCS_TOPICS_GATEWAY/identify-identify-connection-properties),-
 compress?,boolean,whether this connection supports compression of packets,false

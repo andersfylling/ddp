@@ -1,5 +1,4 @@
 Field,Type,Description
---------,--------------------------------------------------------------------------,-----------------------------------------------------
 id,string,guild id
 name,string,guild name
 icon_url,string,guild icon url

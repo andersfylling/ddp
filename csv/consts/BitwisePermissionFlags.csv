@@ -1,5 +1,4 @@
 Permission,Value,Description,Channel Type
----------------------,------------,----------------------------------------------------------------------------------------------------------------------------------,------------
 CREATE_INSTANT_INVITE,`0x00000001`,Allows creation of instant invites,"T, V"
 KICK_MEMBERS *,`0x00000002`,Allows kicking members,
 BAN_MEMBERS *,`0x00000004`,Allows banning members,

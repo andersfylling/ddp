@@ -1,3 +1,2 @@
 Field,Type,Description
---------,--------------------------------------------------------------------------,-----------------------------
 channels,array of partial [channel](#DOCS_RESOURCES_CHANNEL/channel-object) objects,guild channels the user is in

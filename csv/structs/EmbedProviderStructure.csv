@@ -1,4 +1,3 @@
 Field,Type,Description
------,------,----------------
 name?,string,name of provider
 url?,string,url of provider

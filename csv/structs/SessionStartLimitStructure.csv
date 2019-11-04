@@ -1,5 +1,4 @@
 Field,Type,Description
------------,-------,------------------------------------------------------------------
 total,integer,The total number of session starts the current user is allowed
 remaining,integer,The remaining number of session starts the current user is allowed
 reset_after,integer,The number of milliseconds after which the limit resets

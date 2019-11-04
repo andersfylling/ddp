@@ -1,5 +1,4 @@
 Field,Type,Description
------------,-------,---------------------------------------------------------------------
 message,string,A message saying you are being rate limited.
 retry_after,integer,The number of milliseconds to wait before submitting another request.
 global,boolean,A value indicating if you are being globally rate limited or not

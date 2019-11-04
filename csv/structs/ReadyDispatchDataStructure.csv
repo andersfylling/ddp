@@ -1,5 +1,4 @@
 Field,Type,Description
-------,-----------------------------------------------------------------------------------------,----------------------------------
 v,integer,RPC version
 config,[rpc server configuration](#DOCS_TOPICS_RPC/ready-rpc-server-configuration-object) object,server configuration
 user,partial [user](#DOCS_RESOURCES_USER/user-object) object,the user to whom you are connected

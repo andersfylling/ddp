@@ -1,4 +1,3 @@
 Field,Type,Description
------,------,-------------------
 id,string,id of the account
 name,string,name of the account

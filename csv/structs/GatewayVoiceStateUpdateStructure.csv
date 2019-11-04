@@ -1,5 +1,4 @@
 Field,Type,Description
-----------,----------,--------------------------------------------------------------------
 guild_id,snowflake,id of the guild
 channel_id,?snowflake,id of the voice channel client wants to join (null if disconnecting)
 self_mute,boolean,is the client muted

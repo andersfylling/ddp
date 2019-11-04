@@ -1,5 +1,4 @@
 Field,Type,Description
--------------,-----------------------------------------------,----------------------------------------------------------------
 user,[user](#DOCS_RESOURCES_USER/user-object) object,the user this guild member represents
 nick?,string,this users guild nickname (if one is set)
 roles,array of snowflakes,array of [role](#DOCS_TOPICS_PERMISSIONS/role-object) object ids

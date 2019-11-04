@@ -1,5 +1,4 @@
 Field,Type,Description
----------------,-----------------------------------------------------------------------------,-------------------------------------------------------------------------------------------------------------------------
 name,string,the activity's name
 type,integer,[activity type](#DOCS_TOPICS_GATEWAY/activity-object-activity-types)
 url?,?string,"stream url, is validated when type is 1"

@@ -1,5 +1,4 @@
 Field,Type,Description
------,----------------------------------------------------------,-------------------------------------------------
 count,integer,times this emoji has been used to react
 me,boolean,whether the current user reacted using this emoji
 emoji,partial [emoji](#DOCS_RESOURCES_EMOJI/emoji-object) object,emoji information

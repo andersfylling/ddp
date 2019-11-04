@@ -1,5 +1,4 @@
 Field,Type,Description
-------------,---------,-----------------------------
 id,snowflake,id of the application
 cover_image?,string,id of the embed's image asset
 description,string,application's description

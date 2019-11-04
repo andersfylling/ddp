@@ -1,3 +1,2 @@
 Field,Type,Description
-----------,------,------------------------
 channel_id,string,id of the channel to get

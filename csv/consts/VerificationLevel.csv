@@ -1,5 +1,4 @@
 Level,Integer,Description
----------,-------,--------------------------------------------------------------------------
 NONE,0,unrestricted
 LOW,1,must have verified email on account
 MEDIUM,2,must be registered on Discord for longer than 5 minutes

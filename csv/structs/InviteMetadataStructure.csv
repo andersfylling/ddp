@@ -1,5 +1,4 @@
 Field,Type,Description
-----------,-----------------------------------------------,----------------------------------------------------
 inviter,[user](#DOCS_RESOURCES_USER/user-object) object,user who created the invite
 uses,integer,number of times this invite has been used
 max_uses,integer,max number of times this invite can be used

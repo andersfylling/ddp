@@ -1,5 +1,4 @@
 Field,Type,Description
-----------,--------------------------------------------------------,-----------------------------------------
 channel_id,string,id of channel where notification occurred
 message,[message](#DOCS_RESOURCES_CHANNEL/message-object) object,message that generated this notification
 icon_url,string,icon url of the notification

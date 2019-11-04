@@ -1,4 +1,3 @@
 Field,Type,Description
--------,-------,-----------------
 code,integer,RPC Error Code
 message,string,Error description

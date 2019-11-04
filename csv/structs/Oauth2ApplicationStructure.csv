@@ -1,5 +1,4 @@
 Field,Type,Description
------------,----------------,------------------------
 description,string,application description
 icon,string,hash of the icon
 id,snowflake,application client id

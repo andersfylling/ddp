@@ -1,3 +1,2 @@
 Field,Type,Description
--------,------,---------------------------------------
 user_id,string,id of user who started/stopped speaking

@@ -1,5 +1,4 @@
 Field,Type,Description
------------,---------,------------------------------------------------
 id,snowflake,role id
 name,string,role name
 color,integer,integer representation of hexadecimal color code

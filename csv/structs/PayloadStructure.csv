@@ -1,5 +1,4 @@
 Field,Type,Description,Present
------,------,---------------------------------------------------------------------,--------------------------------------------------------
 cmd,enum,[payload command](#DOCS_TOPICS_RPC/commands-and-events-rpc-commands),Always
 nonce,string,unique string used once for replies from the server,In responses to commands (not subscribed events)
 evt,enum,[subscription event](#DOCS_TOPICS_RPC/commands-and-events-rpc-events),"In subscribed events, errors, and (un)subscribing events"

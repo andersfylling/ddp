@@ -1,5 +1,4 @@
 Field,Type,Description
--------------------------,-----------------------------------------------------------------------------------------------------------------------------------------------,-----------------------------------------------------------------------------------------------------------------------------
 id,snowflake,id of the message
 channel_id,snowflake,id of the channel the message was sent in
 guild_id?,snowflake,id of the guild the message was sent in

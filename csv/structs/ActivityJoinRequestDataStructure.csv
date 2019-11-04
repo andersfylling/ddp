@@ -1,3 +1,2 @@
 Field,Type,Description
------,-------------------------------------------------------,---------------------------------------------
 user,partial [user](#DOCS_RESOURCES_USER/user-object) object,information about the user requesting to join

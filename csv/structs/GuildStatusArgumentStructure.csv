@@ -1,3 +1,2 @@
 Field,Type,Description
---------,------,-----------------------------------
 guild_id,string,id of guild to listen to updates of

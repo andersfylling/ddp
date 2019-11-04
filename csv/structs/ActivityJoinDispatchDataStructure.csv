@@ -1,3 +1,2 @@
 Field,Type,Description
-------,------,---------------------------------------------------------------------------------------------------------------------
 secret,string,the [`join_secret`](#DOCS_RICH_PRESENCE_HOW_TO/updating-presence-update-presence-payload-fields) for the given invite

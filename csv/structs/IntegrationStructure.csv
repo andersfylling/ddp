@@ -1,5 +1,4 @@
 Field,Type,Description
--------------------,------------------------------------------------------------------,-----------------------------------------------
 id,snowflake,integration id
 name,string,integration name
 type,string,"integration type (twitch, youtube, etc)"

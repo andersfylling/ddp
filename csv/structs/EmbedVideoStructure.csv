@@ -1,5 +1,4 @@
 Field,Type,Description
--------,-------,-------------------
 url?,string,source url of video
 height?,integer,height of video
 width?,integer,width of video

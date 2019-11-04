@@ -1,3 +1,2 @@
 Field,Type,Description
---------,-----------------------------------------------------------------------,-------------------------------------
 shortcut,[shortcut key combo](#DOCS_TOPICS_RPC/shortcut-key-combo-object) object,the captured shortcut key combo array

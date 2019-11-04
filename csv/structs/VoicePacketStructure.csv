@@ -1,5 +1,4 @@
 Field,Type,Size
----------------,-----------------------------,-------
 Version + Flags,Single byte value of `0x80`,1 byte
 Payload Type,Single byte value of `0x78`,1 byte
 Sequence,Unsigned short (big endian),2 bytes

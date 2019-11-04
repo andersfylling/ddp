@@ -1,3 +1,2 @@
 Field,Type,Description
-------------------,-------,---------------------------------------------------------------
 heartbeat_interval,integer,the interval (in milliseconds) the client should heartbeat with

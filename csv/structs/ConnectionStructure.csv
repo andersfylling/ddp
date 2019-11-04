@@ -1,5 +1,4 @@
 Field,Type,Description
--------------,-------,-----------------------------------------------------------------------------------
 id,string,id of the connection account
 name,string,the username of the connection account
 type,string,"the service of the connection (twitch, youtube)"

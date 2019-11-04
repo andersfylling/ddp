@@ -37,6 +37,10 @@ def create_csv_files(textfile):
 
         cells = [[]]
         for row in rows:
+            a = "".join(set(row.strip().replace("|", "-"))).strip()
+            if a == "-":
+                continue
+
             cols = [x.strip().replace("\\*", "*") for x in row.strip().split('|')]
             cells.append(list(filter(None, cols)))
         if len(cells[0]) == 0:

@@ -1,5 +1,4 @@
 Field,Type,Description
----------,---------,-------------------------
 id,snowflake,attachment id
 filename,string,name of file attached
 size,integer,size of file in bytes

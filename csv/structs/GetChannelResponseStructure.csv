@@ -1,5 +1,4 @@
 Field,Type,Description
-------------,------------------------------------------------------------------------,----------------------------------------------------------------
 id,string,channel id
 guild_id,string,channel's guild id
 name,string,channel name

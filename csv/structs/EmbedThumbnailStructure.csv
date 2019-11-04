@@ -1,5 +1,4 @@
 Field,Type,Description
-----------,-------,---------------------------------------------------------------
 url?,string,source url of thumbnail (only supports http(s) and attachments)
 proxy_url?,string,a proxied url of the thumbnail
 height?,integer,height of thumbnail

@@ -1,4 +1,3 @@
 Field,Type,Description
-----------,------,------------------------------
 channel_id,string,id of channel (`null` if none)
 guild_id,string,id of guild (`null` if none)

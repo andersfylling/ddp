@@ -1,5 +1,4 @@
 Field,Type,Description
-----------,-------,---------------------------------------------------------------------
 id,string,unique ID for the region
 name,string,name of the region
 vip,boolean,true if this is a vip-only server
