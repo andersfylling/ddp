@@ -42,6 +42,15 @@ def create_csv_files(textfile):
         if len(cells[0]) == 0:
             cells = cells[1:]
 
+        # make sure each row has the same width
+        width = 0
+        for row in cells:
+            if len(row) > width:
+                width = len(row)
+        for i, row in enumerate(cells):
+            for x in range(len(row), width):
+                cells[i].append("")
+
         path = ""
         if title.__contains__("Structure"):
             path = STRUCT_FOLDER
