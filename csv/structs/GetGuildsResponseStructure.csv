@@ -1,0 +1,3 @@
+Field,Type,Description
+------,--------------------------------------------------------------------,-------------------------
+guilds,array of partial [guild](#DOCS_RESOURCES_GUILD/guild-object) objects,the guilds the user is in

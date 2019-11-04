@@ -1,0 +1,12 @@
+Field,Type,Description
+------------,------------------------------------------------------------------------,----------------------------------------------------------------
+id,string,channel id
+guild_id,string,channel's guild id
+name,string,channel name
+type,integer,"channel type (guild text: 0, guild voice: 2, dm: 1, group dm: 3)"
+topic,string,(text) channel topic
+bitrate,integer,(voice) bitrate of voice channel
+user_limit,integer,(voice) user limit of voice channel (0 for none)
+position,integer,position of channel in channel list
+voice_states,array of [voice state](#DOCS_RESOURCES_VOICE/voice-state-object) objects,(voice) channel's voice states
+messages,array of [message](#DOCS_RESOURCES_CHANNEL/message-object) objects,(text) channel's messages

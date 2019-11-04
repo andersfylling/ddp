@@ -1,0 +1,3 @@
+Field,Type,Description
+----------,------,-------------------------------------
+channel_id,string,id of channel to listen to updates of

@@ -1,0 +1,5 @@
+Field,Type,Description
+----------,-------,-----------------------------
+token,string,session token
+session_id,string,session id
+seq,integer,last sequence number received

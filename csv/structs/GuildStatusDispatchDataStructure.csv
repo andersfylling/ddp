@@ -1,0 +1,4 @@
+Field,Type,Description
+------,----------------------------------------------------------,------------------------------------------------------
+guild,partial [guild](#DOCS_RESOURCES_GUILD/guild-object) object,guild with requested id
+online,integer,number of online users in guild (deprecated; always 0)

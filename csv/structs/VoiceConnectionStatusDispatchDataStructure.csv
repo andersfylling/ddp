@@ -1,0 +1,7 @@
+Field,Type,Description
+------------,-----------------,-----------------------------------------------
+state,string,one of the voice connection states listed below
+hostname,string,hostname of the connected voice server
+pings,array of integers,last 20 pings (in ms)
+average_ping,integer,average ping (in ms)
+last_ping,integer,last ping (in ms)

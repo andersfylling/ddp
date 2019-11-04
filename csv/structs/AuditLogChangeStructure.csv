@@ -1,0 +1,5 @@
+Field,Type,Description
+----------,-------------------------------------------------------------------------------,------------------------------------------------------------------------------------------------------
+new_value?,[mixed](#DOCS_RESOURCES_AUDIT_LOG/audit-log-change-object-audit-log-change-key),new value of the key
+old_value?,[mixed](#DOCS_RESOURCES_AUDIT_LOG/audit-log-change-object-audit-log-change-key),old value of the key
+key,string,name of audit log [change key](#DOCS_RESOURCES_AUDIT_LOG/audit-log-change-object-audit-log-change-key)

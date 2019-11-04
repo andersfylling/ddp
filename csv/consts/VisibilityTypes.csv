@@ -1,0 +1,4 @@
+Value,Name,Description
+-----,--------,------------------------------------------------
+0,None,invisible to everyone except the user themselves
+1,Everyone,visible to everyone

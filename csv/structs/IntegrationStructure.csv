@@ -1,0 +1,13 @@
+Field,Type,Description
+-------------------,------------------------------------------------------------------,-----------------------------------------------
+id,snowflake,integration id
+name,string,integration name
+type,string,"integration type (twitch, youtube, etc)"
+enabled,boolean,is this integration enabled
+syncing,boolean,is this integration syncing
+role_id,snowflake,"id that this integration uses for ""subscribers"""
+expire_behavior,integer,the behavior of expiring subscribers
+expire_grace_period,integer,the grace period before expiring subscribers
+user,[user](#DOCS_RESOURCES_USER/user-object) object,user for this integration
+account,[account](#DOCS_RESOURCES_GUILD/integration-account-object) object,integration account information
+synced_at,ISO8601 timestamp,when this integration was last synced

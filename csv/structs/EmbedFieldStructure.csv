@@ -1,0 +1,5 @@
+Field,Type,Description
+-------,-------,-----------------------------------------------
+name,string,name of the field
+value,string,value of the field
+inline?,boolean,whether or not this field should display inline

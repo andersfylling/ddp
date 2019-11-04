@@ -1,0 +1,6 @@
+Field,Type,Description
+----------,-------,-----------------------------------------------------------
+url?,string,source url of image (only supports http(s) and attachments)
+proxy_url?,string,a proxied url of the image
+height?,integer,height of image
+width?,integer,width of image

@@ -1,0 +1,4 @@
+Field,Type,Description
+------,-----------------------------------------------,----------------------
+reason,?string,the reason for the ban
+user,[user](#DOCS_RESOURCES_USER/user-object) object,the banned user

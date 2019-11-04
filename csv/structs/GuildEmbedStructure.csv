@@ -1,0 +1,4 @@
+Field,Type,Description
+----------,----------,----------------------------
+enabled,boolean,whether the embed is enabled
+channel_id,?snowflake,the embed channel id

@@ -1,0 +1,12 @@
+Field,Type,Description
+----------------------,------------------------------------------------------------------------------------------------,---------------------------------
+input,[voice settings input](#DOCS_TOPICS_RPC/get-voice-settings-voice-settings-input-object) object,input settings
+output,[voice settings output](#DOCS_TOPICS_RPC/get-voice-settings-voice-settings-output-object) object,output settings
+mode,[voice settings mode](#DOCS_TOPICS_RPC/get-voice-settings-voice-settings-mode-object) object,voice mode settings
+automatic_gain_control,boolean,state of automatic gain control
+echo_cancellation,boolean,state of echo cancellation
+noise_suppression,boolean,state of noise suppression
+qos,boolean,state of voice quality of service
+silence_warning,boolean,state of silence warning notice
+deaf,boolean,state of self-deafen
+mute,boolean,state of self-mute

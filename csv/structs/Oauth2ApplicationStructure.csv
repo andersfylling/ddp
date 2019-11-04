@@ -1,0 +1,7 @@
+Field,Type,Description
+-----------,----------------,------------------------
+description,string,application description
+icon,string,hash of the icon
+id,snowflake,application client id
+rpc_origins,array of strings,array of rpc origin urls
+name,string,application name

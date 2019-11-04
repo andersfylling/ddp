@@ -1,0 +1,3 @@
+Field,Type,Description
+------------,------,-------------------
+access_token,string,OAuth2 access token

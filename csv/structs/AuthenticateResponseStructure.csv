@@ -1,0 +1,6 @@
+Field,Type,Description
+-----------,---------------------------------------------------------------------------------------,-------------------------------
+user,partial [user](#DOCS_RESOURCES_USER/user-object) object,the authed user
+scopes,array of [OAuth2 scopes](#DOCS_TOPICS_OAUTH2/scopes),authorized scopes
+expires,date,expiration date of OAuth2 token
+application,[OAuth2 application](#DOCS_TOPICS_RPC/authenticate-oauth2-application-structure) object,application the user authorized

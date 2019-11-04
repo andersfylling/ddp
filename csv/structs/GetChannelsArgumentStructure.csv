@@ -1,0 +1,3 @@
+Field,Type,Description
+--------,------,-----------------------------------
+guild_id,string,id of the guild to get channels for

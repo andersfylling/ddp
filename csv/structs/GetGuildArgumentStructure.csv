@@ -1,0 +1,4 @@
+Field,Type,Description
+--------,-------,-----------------------------------------------------------
+guild_id,string,id of the guild to get
+timeout,integer,asyncronously get guild with time to wait before timing out

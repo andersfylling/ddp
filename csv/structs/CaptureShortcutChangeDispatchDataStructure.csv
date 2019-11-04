@@ -1,0 +1,3 @@
+Field,Type,Description
+--------,---------------------------------------------------------------------------------,----------------------------
+shortcut,array of [shortcut key combo](#DOCS_TOPICS_RPC/shortcut-key-combo-object) objects,captured shortcut key combos

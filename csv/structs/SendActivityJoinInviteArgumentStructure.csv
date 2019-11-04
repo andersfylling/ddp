@@ -1,0 +1,3 @@
+Field,Type,Description
+-------,---------,-----------------------------
+user_id,snowflake,the id of the requesting user

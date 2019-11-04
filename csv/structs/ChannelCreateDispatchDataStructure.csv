@@ -1,0 +1,5 @@
+Field,Type,Description
+-----,-------,----------------------------------------------------------------
+id,string,channel id
+name,string,name of the channel
+type,integer,"channel type (guild text: 0, guild voice: 2, dm: 1, group dm: 3)"

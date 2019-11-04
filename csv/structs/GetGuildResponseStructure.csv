@@ -1,0 +1,6 @@
+Field,Type,Description
+--------,--------------------------------------------------------------------------,-----------------------------------------------------
+id,string,guild id
+name,string,guild name
+icon_url,string,guild icon url
+members,array of [guild member](#DOCS_RESOURCES_GUILD/guild-member-object) objects,members of the guild (deprecated; always empty array)

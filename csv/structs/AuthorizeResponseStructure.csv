@@ -1,0 +1,3 @@
+Field,Type,Description
+-----,------,-------------------------
+code,string,OAuth2 authorization code

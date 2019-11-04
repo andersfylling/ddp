@@ -1,0 +1,4 @@
+Field,Type,Description
+-----,------,-----------------
+id,string,guild id
+name,string,name of the guild

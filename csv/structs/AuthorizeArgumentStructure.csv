@@ -1,0 +1,6 @@
+Field,Type,Description
+---------,----------------------------------------------------,-------------------------------------------------------------------------
+scopes,array of [OAuth2 scopes](#DOCS_TOPICS_OAUTH2/scopes),scopes to authorize
+client_id,string,OAuth2 application id
+rpc_token,string,one-time use RPC token
+username,string,username to create a guest account with if the user does not have Discord

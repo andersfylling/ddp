@@ -1,0 +1,3 @@
+Field,Type,Description
+------,------,---------------------------------
+action,string,capture action; `START` or `STOP`
