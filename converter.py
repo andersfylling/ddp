@@ -35,15 +35,13 @@ def create_csv_files(textfile):
 
         rows = re.findall(TABLE_ROWS_PATTERN, match.group())
 
-        cells = [[]]
+        cells = []
         for row in rows:
             if row.__contains__("-") and "".join(set(row.strip().replace("|", "-"))).strip() == "-":
                 continue
 
             cols = [x.strip().replace("\\*", "*") for x in row.strip().split('|')]
             cells.append(list(filter(None, cols)))
-        if len(cells[0]) == 0:
-            cells = cells[1:]
 
         # make sure each row has the same width
         width = 0
