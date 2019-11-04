@@ -36,6 +36,8 @@ def create_csv_files(textfile):
         rows = re.findall(TABLE_ROWS_PATTERN, match.group())
 
         cells = []
+
+        # extract cells
         for row in rows:
             if row.__contains__("-") and "".join(set(row.strip().replace("|", "-"))).strip() == "-":
                 continue
@@ -52,16 +54,19 @@ def create_csv_files(textfile):
             for x in range(len(row), width):
                 cells[i].append("")
 
+        # organize into structs or consts
         path = ""
         if title.__contains__("Structure"):
             path = STRUCT_FOLDER
         elif is_const(title):
             path = CONSTS_FOLDER
 
+        # notify about unhandled data
         if path == "":
             print("--" + title)
             continue
 
+        # save to file
         with open(path + create_filename(title) + ".csv", mode='w') as f:
             writer = csv.writer(f, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
             for row in cells:
