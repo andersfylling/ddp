@@ -15,7 +15,7 @@ def create_filename(title):
     return title.title().replace(" ", "")
 
 def is_const(title):
-    return title.endswith(("Level", "Tier", "Flags", "Types"))
+    return title.endswith(("Level", "Tier", "Flags", "Types", "Gateway Events"))
 
 # cleanup
 shutil.rmtree(CSV_FOLDER, ignore_errors=True)
@@ -30,7 +30,7 @@ def create_csv_files(textfile):
 
     for matchNum, match in enumerate(matches, start=1):
         title = match.group(1)
-        if title.endswith("JSON Params") or title.endswith("Query String Params"):
+        if title.endswith(("JSON Params", "Query String Params", "Querystring Parameters", "Object", "Querystring Params", "Query String Parameters", "Fields", "Libraries")):
             continue
 
         rows = re.findall(TABLE_ROWS_PATTERN, match.group())
